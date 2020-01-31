@@ -33,11 +33,11 @@ var sumEvenGrandparent = function(root) {
     let recurse = (node) => {
         if ( node.val%2 === 0 ) {
             findGrandChildren(node)
-        } else {
-            recurse(node.left)
-            recurse(node.right)
         }
+        if (node.left) recurse(node.left)
+        if (node.right) recurse(node.right)
     }
+    
     recurse(root)
     return sum
 };
