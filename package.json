@@ -4,11 +4,13 @@
   "description": "Leet Code Problems / Data Structures and Algorithms",
   "main": "deepestLeavesSum.js",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
     "util": "^0.12.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
