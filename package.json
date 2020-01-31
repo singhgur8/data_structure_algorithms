@@ -1,0 +1,24 @@
+{
+  "name": "data_structure_algorithms",
+  "version": "1.0.0",
+  "description": "Leet Code Problems / Data Structures and Algorithms",
+  "main": "deepestLeavesSum.js",
+  "dependencies": {
+    "util": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhgur8/data_structure_algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhgur8/data_structure_algorithms/issues"
+  },
+  "homepage": "https://github.com/singhgur8/data_structure_algorithms#readme"
+}
